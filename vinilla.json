@@ -1,0 +1,16 @@
+{
+    "name":"SimpleServer",
+    "vendor":"CodingLiki",
+    "description":"простой сервер на php сокетах",
+    "version":"0.1",
+    "repo_url":"https://github.com/coding-liki/simpleserver.git",
+    "depends_on": [
+        "CodingLiki/Autoloader",
+        "CodingLiki/Configs"
+    ],
+    "scripts": [
+        {
+            "name": "copy_config.php"
+        }
+    ]
+}
